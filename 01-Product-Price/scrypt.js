@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-
-<script>
- var poduct_name = prompt("mehsulun adini daxil edin:")
+var poduct_name = prompt("mehsulun adini daxil edin:")
  var product_price = prompt("mehsulun qiymetini daxil edin:")
  if(isNaN(product_price)){
      alert("Yalniz eded daxil ede bilersiniz!");
@@ -27,5 +15,3 @@
      throw new Error("Error")
  }
 alert("Odeyeceyiniz mebleg(endirim daxil) bu qederdir: " + ((product_price * product_weight) - ((product_price*product_weight)/100)*product_discount));
-</script>
-</html>
